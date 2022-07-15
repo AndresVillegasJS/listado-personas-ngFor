@@ -94,11 +94,18 @@
             ],
             "styles": [
               "src/styles.css"
-              
             ],
-            "scripts": [
-              
-            ]
+            "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "listado-personas:build:production",
+            "firebaseProject": "listado-personas-2-a4004",
+            "firebaseHostingSite": "listado-personas-2-a4004"
           }
         }
       }

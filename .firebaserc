@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "listado-personas-2-a4004": {
+      "hosting": {
+        "listado-personas": [
+          "listado-personas-2-a4004"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "listado-personas-2-a4004"
+  }
+}
